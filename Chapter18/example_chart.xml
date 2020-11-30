@@ -1,0 +1,68 @@
+<dashboard script="example_chart.js" >
+    <label>Charts</label>
+    <row>
+        <panel>
+            <html>
+                <table class="table">
+                    <tr>
+                        <!-- First cell -->
+                        <td style="width: 50%;">
+                            <h3>Bar</h3>
+                            <div id="mybarchart"></div>
+                        </td>
+                        <!-- Second cell -->
+                        <td style="width: 50%;">
+                            <h3>Column</h3>
+                            <div id="mycolumnchart"></div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <!-- First cell -->
+                        <td style="width: 50%;">
+                            <h3>Line</h3>
+                            <div id="mylinechart"></div>
+                        </td>
+                        <!-- First cell -->
+                        <td style="width: 50%;">
+                            <h3>Area</h3>
+                            <div id="myareachart"></div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <!-- Second cell -->
+                        <td style="width: 50%;">
+                            <h3>Pie</h3>
+                            <div id="mypiechart"></div>
+                        </td>
+
+                        <!-- Second cell -->
+                        <td style="width: 50%;">
+                            <h3>Scatter</h3>
+                            <div id="myscatterchart"></div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <!-- first cell -->
+                        <td style="width: 33%;">
+                            <h3>Radial Gauge</h3>
+                            <div id="myrgchart"></div>
+                        </td>
+                        <!-- Second cell -->
+                        <td style="width: 33%;">
+                            <h3>Marker Gauge</h3>
+                            <div id="mymgchart"></div>
+                        </td>
+                        <!-- Third cell -->
+                        <td style="width: 33%;">
+                            <h3>Filler Gauge</h3>
+                            <div id="myfgchart"></div>
+                        </td>
+                    </tr>
+                </table>
+            </html>
+        </panel>
+    </row>
+</dashboard>
